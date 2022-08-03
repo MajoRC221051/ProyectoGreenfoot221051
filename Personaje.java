@@ -90,7 +90,7 @@ public class Personaje extends Actor
         Actor enemy = getOneIntersectingObject(Enemy.class);
         if(enemy != null)
         {
-            Greenfoot.playSound("Video Game Beep - Sound Effect.mp3");
+            Greenfoot.playSound("Lose.mp3");;
             Greenfoot.delay(5);
             World myWorld = getWorld();
             GameOver gameOver = new GameOver();
