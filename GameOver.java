@@ -35,9 +35,7 @@ public class GameOver extends World
     public void act()
     {
         if(Greenfoot.isKeyDown("up") && opcion1 != 0) {opcion1++;}
-        Greenfoot.playSound("Video Game Beep - Sound Effect.mp3");
         if(Greenfoot.isKeyDown("down") && opcion1 != 1) {opcion1--;}
-        Greenfoot.playSound("Video Game Beep - Sound Effect.mp3");
         if(opcion1>=2)opcion1=0;
         if(opcion1<0)opcion1=1;
         
