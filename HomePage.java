@@ -48,6 +48,7 @@ public class HomePage extends World
         
     
         if(Greenfoot.isKeyDown("Space") || Greenfoot.isKeyDown("Enter")){
+            Greenfoot.playSound("Click.mp3");
             switch(opcion){
                 case 0:
                     Greenfoot.setWorld(new MyWorld());
