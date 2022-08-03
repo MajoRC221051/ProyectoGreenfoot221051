@@ -248,10 +248,10 @@ public class MyWorld extends World
     private void prepare()
     {
 
-        Hongo hongo = new Hongo();
+        Hongo3 hongo = new Hongo3();
         addObject(hongo,345,23);
 
-        Hongo1 hongo1 = new Hongo1();
+        Hongo4 hongo1 = new Hongo4();
         addObject(hongo1,520,23);
 
         Home home = new Home();
